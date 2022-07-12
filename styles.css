@@ -1,0 +1,77 @@
+body{
+    background: #001842;
+    background: -moz-linear-gradient(left, #001842 0%, #00276C 50%, #0047C4 100%);
+    background: -webkit-linear-gradient(left, #001842 0%, #00276C 50%, #0047C4 100%);
+    background: linear-gradient(to right, #001842 0%, #00276C 50%, #0047C4 100%);
+}
+
+
+h1 {
+    margin: 50px auto;
+    text-align: center;
+    font-size: 3em;
+}
+
+
+
+#edad{
+    margin: 20px auto;
+    text-align: center;
+}
+
+#formulario{
+    margin: 20px auto;
+    text-align: center;
+}
+
+.peli {
+    width: 300px;
+    height: 300px;
+    /* border: 7px solid #0047C4; */
+    
+    border-radius: 3px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+
+}
+
+img {
+    width: 100px;
+    height: 140px;
+}
+
+#contenido{
+    
+    background-color: #00003d;
+    margin: 0 auto;
+    padding: 10px;
+    display: flex;
+    
+    justify-content: center;
+    justify-content: space-around;
+}
+
+#contenido h3, img {
+    margin: 10px;
+    padding: 10px;
+    
+}
+
+h3 {
+    
+    color: white;
+    
+}
+
+
+a {
+    
+    display: block;
+    text-align: center;
+    color: white;
+}
+
+a:hover{
+    background-color: gray;
+}
